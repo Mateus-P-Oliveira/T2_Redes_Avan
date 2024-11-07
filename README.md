@@ -51,3 +51,10 @@ Não serão aceitos trabalhos atrasados e/ou enviados por e-mail.
 Trabalhos que não executam não serão avaliados.
 
 Todos os trabalhos serão analisados e comparados. Caso seja identificada cópia de trabalhos, todos os trabalhos envolvidos receberão nota ZERO!
+
+
+
+Ambiente Virtual 
+python3 -m venv myenv
+source myenv/bin/activate  # Linux/Mac
+myenv\Scripts\activate     # Windows

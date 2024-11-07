@@ -1,10 +1,11 @@
 import sys
 #import MySQLdb
 import pymysql
-pymysql.install_as_MySQLdb()
+pymysql.install_as_MySQLdb()  # Faz a substituição do MySQLdb pelo pymysql
 import netifaces  # Para verificar as interfaces de rede
 from scapy.all import sniff  # Para capturar pacotes de rede
-from pysnmp.entity.rfc3413.oneliner import cmdgen
+from pysnmp.hlapi import *
+
 import logging
 import threading
 
